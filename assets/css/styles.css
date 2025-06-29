@@ -170,12 +170,7 @@ span{
     border-radius: 15px;
     padding: 5px 10px;
     align-items: center;
-}
-h2{
-    align-self: center;
-    color: #E1E2E1;
-    font-size: 40px;
-    font-family: "Quantico";
+    order: 100;
 }
 .contactbar h4{
     font-family: "Quantico";
@@ -189,4 +184,43 @@ button{
     font-size: x-large;
     padding: 5px;
     border-radius: 5px;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+.card-container{
+    display: flex;
+    height: 85vh;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    border: solid #E1E2E1 2px;
+    width: 25vw;
+    height: 65vh;
+    background-color: #E1E2E1;
+    color: #0D1B2A;
+    font-family: "Urbanist", sans-serif;
+    padding: 15px;
+    font-size: x-large;
+    font-weight: 600;
+    text-align: justify;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+.card img{
+    max-height: 250px;
+}
+.card .more{
+    align-self: flex-end;
+}
+h2{
+    align-self: center;
+    color: #E1E2E1;
+    font-size: 40px;
+    font-family: "Quantico";
 }
