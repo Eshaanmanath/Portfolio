@@ -6,15 +6,15 @@ body{
 .navbar{
     display: flex;
     position: fixed;
-    width: 99%;
+    width: 99vw;
     justify-content: space-around;
     align-items: center;
     background-color: #E1E2E1;
-    padding: 15px;
+    padding: 2vh;
     font-family: "Urbanist", sans-serif;
     font-weight: bold;
     font-size: x-large;
-    border-bottom: solid 2px;
+    border-bottom: solid 0.25vh;
 }
 a{
     text-decoration: none;
@@ -27,25 +27,24 @@ a{
 }
 .title-page{
     display: flex;
-    padding-top:30px;
     background-color: #E1E2E1;
     justify-content: flex-end;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 10vh;
     font-family: "Passion One", sans-serif;
     height: 85vh;
     width: 100vw;
 }
 .Me{
     border-radius: 50%;
-    width: 500px;
-    margin-right: 80px;
+    width: 30vw;
+    margin-right: 6vw;
 }
 .titletext{
     display: flex;
     flex-direction: column;
-    margin-right: 20%;
-    font-size: 35px;
+    margin-right: 18vw;
+    font-size: 4.5vh;
     color: #0D1B2A;
 }
 span{
@@ -64,7 +63,7 @@ span{
     width: 100vw; /* Ensure full viewport width */
     display: flex;
     flex-direction: column;
-    padding-bottom: 70px;
+    padding-bottom: 10vh;
 }
 
 .aboutt {
@@ -81,9 +80,9 @@ span{
     display: grid;
     grid-template-columns: repeat(6, 45px);
     grid-template-rows: repeat(11, 45px);
-    gap: 15px;
+    gap: 0.9vw;
     width: fit-content;
-    padding-left: 40px;
+    padding-left: 3.5vw;
 }
 
 .grideg {
@@ -126,12 +125,13 @@ span{
     display: flex;
     color: #E1E2E1;
     height: 70vh;
+    padding-top: 5vh;
 }
 .edutext{
     display: flex;
     flex-direction: column;
-    padding-right: 20%;
-    margin-left: 50px;
+    padding-right: 18vw;
+    margin-left: 4vw;
     font-size: x-large;
     align-self: center;
 }
@@ -144,11 +144,11 @@ span{
     font-family: "Urbanist", sans-serif;
 }
 .clglogo{
-    width: 200px;
-    height:200px;
-    margin-right: 270px;
+    width: 12vw;
+    height:12vw;
+    margin-right: 16vw;
     align-self: center;
-    border-radius: 15px;
+    border-radius: 0.8vw;
 }
 .contacts{
     display: flex;
@@ -160,15 +160,15 @@ span{
     justify-content: flex-end;
 }
 .contacts img{
-    height: 30px;
+    height: 3.5vh;
 }
 .contactbar{
     display: flex;
     width: 90%;
     justify-content: space-around;
     background-color: #E1E2E1;
-    border-radius: 15px;
-    padding: 5px 10px;
+    border-radius: 0.8vw;
+    padding: 0.5vw 1vw;
     align-items: center;
     order: 100;
 }
@@ -182,8 +182,8 @@ button{
     color: #E1E2E1;
     font-family: "Urbanist", sans-serif;
     font-size: x-large;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 0.5vw;
+    border-radius: 0.4vw;
 }
 .projects{
     display: flex;
@@ -193,27 +193,26 @@ button{
     display: flex;
     height: 85vh;
     justify-content: space-around;
-    padding-top: 40px;
+    padding-top: 4vh;
 }
 .card{
     display: flex;
     flex-direction: column;
     object-fit: cover;
-    border: solid #E1E2E1 2px;
     width: 25vw;
     height: 65vh;
     background-color: #E1E2E1;
     color: #0D1B2A;
     font-family: "Urbanist", sans-serif;
-    padding: 15px;
+    padding: 1vh;
     font-size: x-large;
     font-weight: 600;
     text-align: justify;
-    border-radius: 15px;
+    border-radius: 0.8vw;
     justify-content: space-between;
 }
 .card img{
-    max-height: 250px;
+    max-height: 31vh;
 }
 .card .more{
     align-self: flex-end;
@@ -221,6 +220,6 @@ button{
 h2{
     align-self: center;
     color: #E1E2E1;
-    font-size: 40px;
+    font-size: 2.6vw;
     font-family: "Quantico";
 }
