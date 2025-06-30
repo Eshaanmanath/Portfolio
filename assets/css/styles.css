@@ -214,8 +214,11 @@ button{
 .card img{
     max-height: 31vh;
 }
-.card .more{
-    align-self: flex-end;
+.card a{
+    color: #1B3B6F;
+}
+.card a:hover{
+    color: rgb(91, 0, 0);
 }
 h2{
     align-self: center;
