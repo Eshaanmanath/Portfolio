@@ -226,3 +226,39 @@ h2{
     font-size: 2.6vw;
     font-family: "Quantico";
 }
+#exp{
+    display: flex;
+    flex-direction: column;
+    color: #E1E2E1;
+    font-family: "Urbanist", sans-serif;
+    font-size: 3vh;
+}
+.intern{
+    display: flex;
+}
+.intern img{
+    width: 15vw;
+    height: 8vw;
+    padding: 5vw;
+}
+.interntext{
+    padding: 5vw;
+    padding-top: 0;
+}
+.intern h4{
+    font-size: 3.5vh;
+}
+.Volunteer{
+    display: flex;
+}
+.Volunteer img{
+    height: 4.5vw;
+    padding: 5vw;
+}
+.Volunteer h4{
+    font-size: 3.5vh;
+}
+.vol1{
+    padding: 5vw;
+    padding-top: 0;
+}
